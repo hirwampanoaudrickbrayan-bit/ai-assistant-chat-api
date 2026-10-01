@@ -1,0 +1,26 @@
+{
+  "name": "ai-assistant-chat-api",
+  "version": "1.0.0",
+  "description": "AI assistant chat API for a chat application",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "ai",
+    "chat",
+    "api",
+    "openai",
+    "express"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "openai": "^4.36.0"
+  }
+}
